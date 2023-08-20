@@ -1,0 +1,130 @@
+body{
+    background-color: #F9F7DC;
+}
+img{
+    border-radius: 10%;
+    padding-right: 10px;
+}
+div{
+    display: block;
+}
+.top-container{
+    background-color: #EF8535;
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+    font-family: "Sacramento", cursive;
+    font-weight: bolder;
+    color: #F9F7DC;
+    font-size: 5rem;
+}
+h2{
+    color: #763C00;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+}
+.mid-img{
+    border-radius: 50%;
+    margin-top: 100px;
+}
+h3{
+    font-size: xx-large;
+    font-family: sans-serif;
+    color: #C43C1E;
+}
+li{
+    list-style: none;
+    color: #763C00;
+}
+.second-container{
+    text-align: center;
+}
+hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: dotted #facca9 6px;
+    border-bottom: none;
+    width: 4%;
+}
+.third-container{
+    text-align: center;
+    padding: 10px 150px;
+}
+.coding{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.paint{
+    display: flex;
+    text-align: left;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.gaming{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+p{
+    max-width: 500px;
+    color: #763C00;
+}
+h4{
+    font-size: larger;
+    color: #763C00;
+}
+h5{
+    color: #763C00;
+}
+.fourth-container{
+    text-align: center;
+}
+.last-container{
+    text-align: center;
+    background-color: #C43C1E;
+    padding-top: 50px;
+}
+a:link{
+    color: #F9F7DC;
+}
+footer{
+    margin-top: 20px;
+    color: #F9F7DC;
+}    
+.line{
+    width: 100%;
+    border-style: groove;
+    margin-top: 0%;
+
+}
+@media (max-width: 650px){
+    .third-container{
+        text-align: center;
+        padding: 10px;
+    }
+    .coding{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .paint{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .gaming{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    p{
+        display: block;
+        text-align: left;
+    }   
+}
+
